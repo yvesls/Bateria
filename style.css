@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+}
+
+.prato1 {
+    z-index: 1;
+    transform: rotate(10deg);
+}
+
+.prato2 {
+    z-index: 1;
+    transform: rotate(-15deg);
+}
+
+.prato3 {
+    z-index: 2;
+    margin-right: 100px;
+}
+
+.btn.btn.btn {
+    width: 3%;
+}
+
+#btn1{ /*prato 1*/
+    z-index: 3;
+    position: absolute;
+    top: 7%;
+    left: 31%;
+}
+
+#btn2{ /*prato 2*/
+    z-index: 3;
+    position: absolute;
+    top: 5%;
+    right: 37%;
+}
+
+#btn3{ /*tom-tom 1*/
+    z-index: 3;
+    position: absolute;
+    top: 27%;
+    right: 55%;
+}
+
+#btn4{ /*tom-tom 2*/
+    z-index: 3;
+    position: absolute;
+    top: 27%;
+    right: 45%;
+}
+
+#btn5{ /*surdo*/
+    z-index: 3;
+    position: absolute;
+    top: 42%;
+    right: 58%;
+}
+
+#btn6{ /*bumbo*/
+    z-index: 3;
+    position: absolute;
+    top: 62%;
+    right: 52%;
+}
+
+#btn7{ /*caixa*/
+    z-index: 3;
+    position: absolute;
+    top: 38%;
+    right: 41%;
+}
+
+#btn8{ /*chimbau*/
+    z-index: 3;
+    position: absolute;
+    top: 22%;
+    right: 28%;
+}

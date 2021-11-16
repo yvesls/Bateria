@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bateria JS</title>
+
+  </head>
+  <body class="row">
+    <audio id="myAudio1"><source src="sons/prato.wav" type="audio/wav"></audio>
+    <audio id="myAudio2"><source src="sons/tom-tom.wav" type="audio/wav"></audio>
+    <audio id="myAudio3"><source src="sons/surdo.flac" type="audio/flac"></audio>
+    <audio id="myAudio4"><source src="sons/bombo.wav" type="audio/wav"></audio>
+    <audio id="myAudio5"><source src="sons/caixa.wav" type="audio/wav"></audio>
+    <audio id="myAudio6"><source src="sons/chimbau.wav" type="audio/wav"></audio>
+
+    <img src="imagens/bateria.jpg" class="img-fluid w-50 mx-auto d-block">
+    <div class="d-flex position-absolute justify-content-center align-content-center">
+      <div class="col-1"></div>
+      <img id="img2" src="imagens/prato1.jpg" class="prato1 col-2 pt-2 w-25" height="110rem">
+      <div class="col-1"></div>
+      <div class="col-4">
+        <img id="img1" src="imagens/prato2.jpg" class="prato2 col-6" height="100rem">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+        <img id="img3" src="imagens/prato3.jpg" class="prato3 col-6 float-end" height="130px" width="50vrem">
+      </div>
+      
+    </div>
+    
+
+
+    <buttom onclick="play(v = 1)" onkeypress="play(this)" type="button" id="btn1" class="btn btn-danger">1</buttom>
+    <buttom onclick="play(v = 2)" onkeypress="play(this)" type="button" id="btn2" class="btn btn-danger">2</buttom>
+    <buttom onclick="play(v = 3)" onkeypress="play(this)" type="button" id="btn3" class="btn btn-danger">3</buttom>
+    <buttom onclick="play(v = 4)" onkeypress="play(this)" type="button" id="btn4" class="btn btn-danger">4</buttom>
+    <buttom onclick="play(v = 5)" onkeypress="play(this)" type="button" id="btn5" class="btn btn-danger">5</buttom>
+    <buttom onclick="play(v = 6)" onkeypress="play(this)" type="button" id="btn6" class="btn btn-danger">6</buttom>
+    <buttom onclick="play(v = 7)" onkeypress="play(this)" type="button" id="btn7" class="btn btn-danger">7</buttom>
+    <buttom onclick="play(v = 8)" onkeypress="play(this)" type="button" id="btn8" class="btn btn-danger">8</buttom>
+    <!-- Meu JS -->
+    <script src="app.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
