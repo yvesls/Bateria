@@ -4,17 +4,22 @@ body {
 
 .prato1 {
     z-index: 1;
-    transform: rotate(10deg);
+    transform: rotate(13deg);
 }
 
 .prato2 {
+    position: relative;
     z-index: 1;
-    transform: rotate(-15deg);
+    transform: rotate(0deg);
+    top: -25px;
+    left: -15px;
 }
 
 .prato3 {
     z-index: 2;
     margin-right: 100px;
+    position: relative;
+    top: -15px;
 }
 
 .btn.btn.btn {
@@ -24,15 +29,15 @@ body {
 #btn1{ /*prato 1*/
     z-index: 3;
     position: absolute;
-    top: 7%;
+    top: 10%;
     left: 31%;
 }
 
 #btn2{ /*prato 2*/
     z-index: 3;
     position: absolute;
-    top: 5%;
-    right: 37%;
+    top: 3%;
+    right: 38%;
 }
 
 #btn3{ /*tom-tom 1*/
@@ -73,6 +78,6 @@ body {
 #btn8{ /*chimbau*/
     z-index: 3;
     position: absolute;
-    top: 22%;
+    top: 24%;
     right: 28%;
 }

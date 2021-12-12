@@ -4,19 +4,19 @@ function play(v){
     if(v == 2 || event.keyCode == 49){
         document.getElementById('myAudio1').play()
         document.getElementById('btn2').style.border = '5px solid red'
-        document.getElementById('img1').style.transform = 'rotate(0deg)'
+        document.getElementById('img1').style.transform = 'rotate(-15deg)'
         setInterval(() => {
             document.getElementById('btn2').style.border = ''
-            document.getElementById('img1').style.transform = 'rotate(-15deg)'
+            document.getElementById('img1').style.transform = 'rotate(0deg)'
         }, 500);
 
     }else if (v == 1 || event.keyCode == 50){
         document.getElementById('myAudio1').play()
         document.getElementById('btn1').style.border = '5px solid red'
-        document.getElementById('img2').style.transform = 'rotate(0deg)'
+        document.getElementById('img2').style.transform = 'rotate(20deg)'
         setInterval(() => {
             document.getElementById('btn1').style.border = ''
-            document.getElementById('img2').style.transform = 'rotate(10deg)'
+            document.getElementById('img2').style.transform = 'rotate(13deg)'
         }, 500);
 
     }else if (v == 3 || event.keyCode == 51){
