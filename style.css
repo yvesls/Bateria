@@ -38,6 +38,7 @@ body {
     position: absolute;
     top: 3%;
     right: 38%;
+    transition: scale 0.5s;
 }
 
 #btn3{ /*tom-tom 1*/
@@ -80,4 +81,8 @@ body {
     position: absolute;
     top: 24%;
     right: 28%;
+}
+
+.animacao_botao {
+    border-color: aqua;
 }
